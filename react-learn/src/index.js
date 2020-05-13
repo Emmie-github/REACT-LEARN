@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Test from "./components/Test";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Test />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
