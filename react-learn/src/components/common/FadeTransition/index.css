@@ -1,0 +1,36 @@
+
+/* 淡出 */
+/* .fade-exit-active{
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    opacity: 0;
+}
+.fade-exit-done{
+    opacity: 0;
+} */
+/* 淡入 */
+/* .fade-enter{
+    opacity: 0;
+}
+.fade-enter-active{
+    opacity: 1;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+} */
+
+.fade-enter,
+.fade-exit-active,
+.fade-exit-done,
+.fade-appear{
+    opacity: 0;
+}
+.fade-enter-active,
+.fade-appear-active{
+    opacity: 1;
+}
