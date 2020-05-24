@@ -8,7 +8,8 @@ export default class Layout extends Component {
   static propTypes = {
     header: PropTypes.element,
     aside: PropTypes.element,
-    children: PropTypes.element
+    // children: PropTypes.arrayOf(PropTypes.element)
+    children: PropTypes.node
   };
   render() {
     return (
@@ -20,9 +21,7 @@ export default class Layout extends Component {
           {/* 左 */}
           <aside className="aside">{this.props.aside}</aside>
           {/* 右 */}
-          <div className="main">
-              {this.props.children}
-          </div>
+          <div className="main">{this.props.children}</div>
         </div>
       </div>
     );
